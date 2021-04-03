@@ -1,0 +1,402 @@
+@media (max-width: 1200px) {
+    
+    // general
+    .title {
+        font-size: 21px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+
+    // header
+    
+    .nav {
+        > a {
+            font-size: 12px;
+            padding-right: 10px;
+            margin-right: 10px;
+        }
+    }
+    .header_logo {
+        > img {
+        width: 80px;
+        height: 80px;
+        }
+    }
+    .phone_number {
+        font-size: 17px;
+    }
+    .header_btn1, .header_btn2 {
+        width: 145px;
+        height: 38px;
+        font-size: 10px;
+    }
+    .header_btn1 {
+        display: block;
+    }
+    .header_btn2 {
+        display: none;
+    }
+    .nav {
+        margin-left: 20px;
+    }
+    .phone {
+        margin-right: 20px;
+    }
+    .header_title {
+        font-size: 61px;
+    }
+    .header_subtitle {
+        font-size: 38px;
+    }
+    .header_bottom_btn {
+        width: 200px;
+        height: 46px;
+        font-size: 12px;
+    }
+    .abil_img {
+        width: 55px;
+        height: 55px;
+    }
+    .abil_descr {
+        width: 225px;
+    }
+
+
+
+    // advantages 
+
+    .advantages {
+        padding-top: 40px;
+    }
+
+
+    .adv_descr {
+        > .descr_text {
+            width: 400px;
+        }
+    }
+    .adv_block {
+        width: 490px;
+    }
+
+
+
+    // job info
+
+    .job_info {
+        padding-top: 40px;
+    }
+
+
+    .job_card_img {
+        width: 300px;
+    }
+
+    .job_card_text {
+        font-size: 13px;
+    }
+
+
+
+    // agent 
+
+    .chinese_agent {
+        padding-top: 40px;
+    }
+
+    .agent_icon {
+        width: 90px;
+        height: 90px;
+    }
+
+
+    .agent_text {
+        width: 900px;
+        font-size: 16px;
+    }
+
+
+    // prices  --> consult
+
+    .consult_title {
+        font-size: 25px;
+    }
+
+
+    // managers
+
+    .managers {
+        padding-top: 40px;
+    }
+
+    .manager_title {
+        font-size: 23px;
+    }
+
+    .manager_text {
+        width: 900px;
+        font-size: 17px;
+    }
+
+    // scheme
+
+    .scheme {
+        padding-top: 40px;
+    }
+
+    // reviews
+
+    .reviews {
+        padding-top: 40px;
+    }
+
+    .reviews_descr_text {
+        font-size: 16px;
+    }
+
+    .reviews_wrapper {
+        height: 720px;
+    }
+
+    // question form
+
+    .qform_title {
+        font-size: 17px;
+    }
+
+    .qform_text_us {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        width: 100%;
+    }
+    // general 
+    .title {
+        font-size: 17px;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    .descr_text {
+        font-size: 10px;
+    }
+    .descr_title {
+        font-size: 14px;
+    }
+    // general 
+    
+
+    // header
+
+
+    .header_logo {
+        > img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    
+    .nav {
+        > a {
+            font-size: 9px;
+            padding-right: 3px;
+            margin-right: 3px;
+        }
+    }
+
+    .phone_number {
+        font-size: 13px;
+    }
+    .phone {
+        > :first-child {
+            font-size: 11px;
+        }
+    }
+    .header_btn1 {
+        width: 100px;
+        height: 25px;
+        font-size: 8px;
+    }
+
+    .header_globt_is {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .header_title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .header_subtitle {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .header_divider {
+        width: 630px;
+    }
+    .header_line {
+        width: 250px;
+    }
+    .abil_img {
+        width: 40px;
+        height: 40px;
+    }
+    .abil_descr {
+        font-size: 12px;
+        width: 175px;
+    }
+    .abil_wrapper {
+        margin-bottom: 60px;
+    }
+    .header_bottom_btn {
+        width: 150px;
+        height: 38px;
+        font-size: 10px;
+    }
+
+
+    // advantages
+
+
+    .adv_descr > {
+        .descr_text {
+            width: 300px;
+        }
+    }
+    .adv_img {
+        > img {
+            width: 45px;
+            height: 45px;
+        }
+    }
+
+    .adv_block {
+        width: 350px;
+    }
+
+
+    // job info
+
+
+    .job_card_img {
+        width: 225px;
+    }
+
+    // agent
+
+    .agent_icon {
+        width: 70px;
+        height: 70px;
+    }
+    .agent_title {
+        font-size: 23px;
+    }
+    .agent_text {
+        width: 700px;
+        font-size: 14px;
+    }
+
+
+    // prices cards
+
+
+    .prices_card_head {
+        font-size: 13px;
+        height: 50px;
+        padding-top: 15px;
+    }
+    .prices_card_icon {
+        width: 55px;
+        height: 55px;
+    }
+    .prices_card_subtitle {
+        font-size: 12px;
+    }
+    .prices_card_title {
+        font-size: 23px;
+    }
+    .prices_card_descr {
+        font-size: 12px;
+    }
+    .prices_card_btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .prices_card {
+        height: 320px;
+    }
+
+    // consult
+
+    .consult_title {
+        font-size: 19px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .consult_icon {
+        width: 100px;
+        height: 90px;
+        transform: translate(0, -240px);
+    }
+    .consult_input {
+        width: 220px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .consult_btn {
+        width: 170px;
+        height: 60px;
+        font-size: 10px;
+        transform: translate(0, -122px);
+    }
+
+
+    // managers 
+
+    .manager_icon {
+        width: 80px;
+        height: 80px;
+    }
+    .manager_title {
+        font-size: 19px;
+        width: 220px;
+    }
+    .manager_text {
+        font-size: 14px;
+        width: 700px;
+    }
+
+    // scheme
+
+    .scheme_icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    // reviews
+
+    .reviews_img {
+        width: 120px;
+        height: 120px;
+    }
+    .reviews_descr_title {
+        font-size: 16px;
+    }
+    .reviews_descr_text {
+        font-size: 13px;
+        width: 500px;
+    }
+    .reviews_item {
+        width: 820px;
+    }
+    .reviews_wrapper {
+        height: 620px;
+        margin-top: 100px;
+    }
+}

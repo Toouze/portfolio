@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+html, body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+input {
+    border: 1px solid #898989;
+    outline:none;
+    padding-left: 30px;
+}
+
+button {
+    background-color: #ec644b;
+    border-radius: 25px;
+    border: 0;
+    display: block;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+.container {
+    width: 1140px;
+}
+
+.header_logo {
+    margin-top: 23px;
+}
+
+
+.title {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 300;
+    color: #2e2e2e;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.divider {
+    width: 148px;
+    height: 1px;
+    background: #EC644B;
+    margin: 0 auto;
+}
+
+
+.btn-up {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    background-color: gray;
+    opacity: 0.5;
+    border-radius: 4px;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease;
+
+    > .material-icons {
+        transform: scale(0.7);
+        position: relative;
+        top: 4px;
+        left: 5px;
+        color: white;
+    }
+}
